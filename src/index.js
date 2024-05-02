@@ -1,35 +1,39 @@
 let nomeHeroi = "Batman"
 let xpHeroi = 6.350
+let nivelHeroi
 
 
 if(xpHeroi < 1.000){
 
-    console.log("Ferro")
+   nivelHeroi ="Ferro"
 
 }else if(xpHeroi > 1.000 && xpHeroi <= 2.000){
 
-    console.log("Bronze")
+   nivelHeroi ="Bronze"
 
 }else if(xpHeroi > 2.000 && xpHeroi <= 5.000){
 
-    console.log("Prata")
+   nivelHeroi ="Prata"
 
 }else if(xpHeroi > 5.000 && xpHeroi <= 7.000){
 
-    console.log("Ouro")
-    
+   nivelHeroi ="Ouro"
+
 }else if(xpHeroi > 7.000 && xpHeroi <= 8.000){
 
-    console.log("Platina")
+   nivelHeroi ="Platina"
 
 }else if(xpHeroi > 8.000 && xpHeroi <= 9.000){
 
-    console.log("Ascendente")
+   nivelHeroi ="Ascendete"
 
 }else if(xpHeroi > 9.000 && xpHeroi <= 10.000){
 
-    console.log("Imortal")
+   nivelHeroi ="Imortal"
 
 }else{
-    console.log("Radiante")
+   nivelHeroi ="Radiante"
 }
+
+
+console.log("O herói de nome " + nomeHeroi + " Está no nivel de " + nivelHeroi)
